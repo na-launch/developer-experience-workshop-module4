@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: workshop-module4
-  title: Module 4
+  name: workshop-module4-java
+  title: Module 4 - Java
   description: |
     Creating and Deploying your first Serverless Function
   annotations:
@@ -14,6 +14,3 @@ spec:
   lifecycle: production
   owner: group:default/cluster-admins
   subcomponentOf: component:default/workshop-repository
-  dependsOn:
-    - component:default/workshop-agenda
-
